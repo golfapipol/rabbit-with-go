@@ -30,7 +30,7 @@ go run cmd/producer/main.go
 go run cmd/topic/consumer/main.go "#"
 ```
 
-- # - หมายถึง รับหมดไม่ว่าจะส่งเป็น routing key ไหนเข้ามา
+- "#" - หมายถึง รับหมดไม่ว่าจะส่งเป็น routing key ไหนเข้ามา
 
 #### Run Topic Producer
 
