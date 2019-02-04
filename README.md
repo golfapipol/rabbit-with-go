@@ -30,8 +30,12 @@ go run cmd/producer/main.go
 go run cmd/topic/consumer/main.go "#"
 ```
 
+- # - หมายถึง รับหมดไม่ว่าจะส่งเป็น routing key ไหนเข้ามา
+
 #### Run Topic Producer
 
 ```bash
-go run cmd/topic/producer/main.go "topic"
+go run cmd/topic/producer/main.go "routing-key"
 ```
+
+- routing-key - ชื่อ routing-key ที่ exchange ใช้ในการส่งเข้า queue
